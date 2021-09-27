@@ -1,0 +1,10 @@
+^D:\PROJECTS\C++\BATTLE_CITY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/C++/battle_city -BD:/Projects/C++/battle_city/build --check-stamp-file D:/Projects/C++/battle_city/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
