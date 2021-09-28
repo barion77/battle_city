@@ -4,11 +4,22 @@
     <ClCompile Include="D:\Projects\C++\battle_city\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Projects\C++\battle_city\source\renderer\shader_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Projects\C++\battle_city\source\renderer\shader_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Projects\C++\battle_city\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{35433139-D8AB-38E2-9531-EA08EABCE52D}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{F99D82DA-8528-3E84-BF23-980B3DCF44EC}</UniqueIdentifier>
     </Filter>

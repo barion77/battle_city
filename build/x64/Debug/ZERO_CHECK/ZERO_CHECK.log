@@ -1,1 +1,10 @@
-﻿
+﻿  Checking Build System
+  CMake is re-running because D:/Projects/C++/battle_city/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/Projects/C++/battle_city/CMakeLists.txt'
+    is newer than 'D:/Projects/C++/battle_city/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19043.
+  -- Using Win32 for window creation
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Projects/C++/battle_city/build
