@@ -7,9 +7,15 @@
     <ClCompile Include="D:\Projects\C++\battle_city\source\renderer\shader_program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Projects\C++\battle_city\source\resources\resources_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Projects\C++\battle_city\source\renderer\shader_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Projects\C++\battle_city\source\resources\resources_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

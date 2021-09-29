@@ -6,7 +6,10 @@ project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} 
 	source/main.cpp
 	source/renderer/shader_program.cpp
-	source/renderer/shader_program.h)
+	source/renderer/shader_program.h
+	source/resources/resources_manager.cpp
+	source/resources/resources_manager.h
+)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 
@@ -20,3 +23,9 @@ target_link_libraries(${PROJECT_NAME} glfw)
 
 add_subdirectory(external/glad)
 target_link_libraries(${PROJECT_NAME} glad)
+
+set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+					COMMAND ${CMAKE_COMMAND} -E copy_directory
+					${CMAKE_SOURCE_DIR}/res $<TARGET_FILE_DIR:${PROJECT_NAME}>/res)
